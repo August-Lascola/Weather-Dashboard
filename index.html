@@ -7,6 +7,27 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <body class="flex-column min-100-vh">
+        <header class="hero">
+          <h1 class="app-title"><i class="fab fa-github"></i> Git it Done!</h1>
+          <p>Search for a GitHub user or click on a language to see a list of repositories and how many open issues they have!
+          </p>
+        </header>
+      
+      
+        <main class="flex-row justify-space-between">
+          <div class="col-12 col-md-4">
+            <div class="card">
+              <h3 class="card-header text-uppercase">Search for a City:</h3>
+              <form id="user-form" class="card-body">
+                <label class="form-label" for="username"></label>
+                <input name="username" id="username" type="text" autofocus="true" class="form-input" />
+                <button type="submit" class="btn">Search</button>
+              </form>
+            </div>
+          </div>
+        </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="./assets/js/homepage.js"></script>
 </body>
 </html>
